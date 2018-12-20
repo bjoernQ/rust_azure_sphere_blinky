@@ -11,6 +11,6 @@ azsphere image package-application --input target\approot --output target\manual
 
 echo "Now do this:"
 echo "azsphere device sideload delete"
-echo "azsphere device sideload deploy -p manual.imagepackage"
+echo "azsphere device sideload deploy -p target\manual.imagepackage"
 echo
 
