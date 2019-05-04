@@ -4,7 +4,13 @@ Here you can find an example of using Rust to develop Blinky (the "Hello World" 
 
 ## How to build
 
-Make sure to have your Rust environment switched to `nightly` and have xargo installed.
+Install Visual Studio's `Desktop development with C++` "workload" if you don't have it already.
+Make sure to have your Rust environment switched to `nightly` and have `xargo` installed:
+
+```batch
+cargo install xargo
+rustup component add rust-src
+```
 
 Go to the `sphere_blinky` directory and do `xargo build --target arm-v7-none-eabi` after the build run `package.bat` to get the application packaged for Azure Sphere.
 
