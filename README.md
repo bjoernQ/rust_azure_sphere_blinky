@@ -1,3 +1,5 @@
+PLEASE FIND A MORE COMPLETE AND UP-TO-DATE SOLUTION AT https://github.com/grandcentrix/rust-on-azure-sphere
+
 # Blinky in Rust for Azure Sphere
 
 Here you can find an example of using Rust to develop Blinky (the "Hello World" of embedded) for Azure Sphere.
